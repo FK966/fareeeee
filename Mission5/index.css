@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe5e5; /* Fond rose pâle */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.cv-container {
+    width: 60%;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 3px solid #f88a8a; /* Bord rouge clair */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.back-home {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-home {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    background-color: #e57373; /* Bouton rouge */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-home:hover {
+    background-color: #ef5350; /* Rouge plus foncé au survol */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #f88a8a; /* Bord rouge clair pour la photo */
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #c62828; /* Rouge pour le nom */
+    font-size: 2em;
+    margin: 0;
+}
+
+.profession {
+    color: #b71c1c; /* Rouge foncé pour la profession */
+    font-style: italic;
+}
+
+h2 {
+    color: #c62828; /* Rouge pour les titres de section */
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+/* Style pour le bloc d'expériences professionnelles */
+.experience-block {
+    border: 3px solid #f88a8a; /* Bord rouge clair */
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ffffff; /* Fond blanc pour le bloc */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.experience-card {
+    display: flex; /* Utilisation de Flexbox pour aligner horizontalement */
+    align-items: center;
+    border: 3px solid #f88a8a; /* Bord rouge clair */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffcccc; /* Fond rouge clair */
+}
+
+.date-container {
+    width: 120px; /* Largeur fixe pour la date */
+    background-color: #f88a8a; /* Fond rouge clair */
+    color: #660000; /* Texte rouge foncé */
+    border: 3px solid #e57373; /* Bord rouge */
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    margin-right: 15px; /* Espace entre la date et le texte */
+    flex-shrink: 0; /* Empêche la réduction de la date */
+}
+
+.details {
+    flex: 1; /* Occupe l'espace restant */
+}
+
+h3 {
+    margin: 0;
+    color: #660000; /* Texte rouge foncé pour les titres d'expérience */
+}
+
+p {
+    margin: 5px 0 0;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #ffcccc; /* Fond rouge clair */
+    color: #660000; /* Texte rouge foncé */
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-info p, .contact-info a {
+    color: #660000; /* Texte rouge foncé */
+    display: block;
+    text-decoration: none;
+}
